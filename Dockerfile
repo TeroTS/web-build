@@ -4,7 +4,7 @@ RUN curl -sL https://deb.nodesource.com/setup_4.x |  bash -
 
 RUN apt-get update && apt-get -y install curl python build-essential git libfreetype6 libfontconfig1 firefox xvfb python-pip nodejs
 
-wRUN npm install -g bower gulp 
+RUN npm install -g bower gulp 
 
 RUN npm install phantomjs
 
