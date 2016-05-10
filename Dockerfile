@@ -7,7 +7,7 @@ RUN curl -sL https://deb.nodesource.com/setup_4.x |  bash -
 
 RUN apt-get -y install nodejs
 
-RUN npm install -g bower gulp phantomjs
+RUN npm install -g bower gulp 
 
 RUN npm install phantomjs
 
