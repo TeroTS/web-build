@@ -11,6 +11,8 @@ RUN npm install -g bower gulp
 
 RUN npm install phantomjs
 
+COPY requirements.txt .
+
 RUN pip install -r requirements.txt
 
 # Cleaning
