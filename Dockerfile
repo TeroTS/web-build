@@ -1,7 +1,7 @@
 
 FROM ubuntu:14.04
 
-RUN apt-get update && apt-get -y install curl python build-essential git libfreetype6 libfontconfig1 xvfb python-pip
+RUN apt-get update && apt-get -y install curl python python-dev build-essential git libfreetype6 libfontconfig1 libffi-dev libssl-dev firefox xvfb python-pip wget
 
 # Install Firefox ESR and configure it to be used as default firefox installation.
 
