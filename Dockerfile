@@ -5,9 +5,9 @@ RUN apt-get update && apt-get -y install curl python python-dev build-essential 
 
 # Install Firefox ESR and configure it to be used as default firefox installation.
 
-RUN wget https://download-installer.cdn.mozilla.net/pub/firefox/releases/45.2.0esr/linux-x86_64/en-US/firefox-45.2.0esr.tar.bz2
+RUN wget https://download-installer.cdn.mozilla.net/pub/firefox/releases/45.5.1esr/linux-x86_64/en-US/firefox-45.5.1esr.tar.bz2
 
-RUN tar -xvjf firefox-45.2.0esr.tar.bz2 -C /opt
+RUN tar -xvjf firefox-45.5.1esr.tar.bz2 -C /opt
 
 RUN mv /usr/bin/firefox /usr/bin/firefox-old
 
@@ -17,7 +17,7 @@ RUN curl -sL https://deb.nodesource.com/setup_4.x |  bash -
 
 RUN apt-get -y install nodejs
 
-RUN npm install -g bower gulp 
+RUN npm install -g bower gulp
 
 RUN npm install phantomjs
 
