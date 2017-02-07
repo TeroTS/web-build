@@ -1,5 +1,4 @@
-
-FROM ubuntu:14.04
+FROM ubuntu:16.04
 
 ENV FIREFOX_ESR 45.5.1esr
 
