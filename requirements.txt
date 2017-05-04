@@ -4,8 +4,9 @@ github3.py==1.0.0a4
 lockfile==0.12.2
 robotframework==3.0.2
 robotframework-appiumlibrary==1.4.3
-robotframework-requests==0.4.6
 robotframework-selenium2library==1.8.0
+robotframework-requests==0.4.6
 robotframework-xvfb==1.2.2
 requests==2.13
 selenium==2.53.6
+untangle==1.1.0
